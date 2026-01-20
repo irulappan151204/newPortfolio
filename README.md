@@ -4,7 +4,7 @@ A modern, professional portfolio website for Irulappan T, a Python Developer & D
 
 ## 🚀 Live Demo
 
-[View Live Portfolio]([https://github.com/irulappan151204/Portfolio_](https://portfolionew-psi-one.vercel.app/)) (Update with your live URL)
+[View Live Portfolio](https://portfolionew-psi-one.vercel.app/) (Update with your live URL)
 
 ## ✨ Features
 
