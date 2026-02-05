@@ -33,24 +33,25 @@ const nextConfig: NextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: false,
   },
-  
+
   // Performance optimizations
-  swcMinify: true, // Use SWC minifier for better performance
+  // swcMinify: true, // Default in Next.js 13+
   poweredByHeader: false, // Remove x-powered-by header
-  
+
   // Enable compression
   compress: true,
-  
+
   // Experimental features for better performance
   experimental: {
     // Enable modern bundling
-    turbo: {
-      loaders: {
-        '.svg': ['@svgr/webpack'],
-      },
-    },
+    // Turbo config removed due to type incompatibility in Next.js 16
+    // turbo: {
+    //   loaders: {
+    //     '.svg': ['@svgr/webpack'],
+    //   },
+    // },
   },
-  
+
   // Headers for better caching
   async headers() {
     return [
